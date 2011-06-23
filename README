@@ -1,5 +1,6 @@
 Requirements :
--mongodb http://mongodb.org
+- mongodb http://mongodb.org
+- node.js http://nodejs.org/
 
 node modules:
 - express 
@@ -8,3 +9,12 @@ node modules:
 - mongodb
 - stylus
 
+Install npm to get the above packages. http://npmjs.org/
+ 
+use "npm install package_name" to install in the checked out dir.
+
+
+To run:
+node app.js
+
+Make sure that you have installed mongodb for your platform and it is running.
