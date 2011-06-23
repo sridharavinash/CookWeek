@@ -1,0 +1,27 @@
+!!! 5
+html(lang="en")
+  head
+    title = title
+    nav
+      a(href='/recipes') Added Recipes
+    h1 CookWeek
+   body
+    form(method:"post")
+      label Add a Recipe 
+        input(type='text',name='recipe[name]')
+    p Generated for the Week
+    table 
+      thead
+       th Day 
+       th Lunch
+       th Dinner
+       tbody
+        -each item in items
+          tr
+           td=item.dow
+           -var loc ='\'http://google.com/search?q='+item.lunch+' recipe\'';
+           td(onClick:"window.location.href="+loc ,onmouseover:"style.backgroundColor='grey';",onmouseout:"style.backgroundColor=''") #{item.lunch}
+           -var loc ='\'http://google.com/search?q='+item.dinner+' recipe\'';
+           td(onClick:"window.location.href="+loc,onmouseover:"style.backgroundColor='grey';",onmouseout:"style.backgroundColor=''") #{item.dinner}
+     
+

@@ -1,0 +1,11 @@
+!!! 5
+html(lang="en")
+  head
+    title = Added Recipes
+  body
+    a(href='/') Home
+    h3 Added Recipes              
+    ul
+     -each item in rcps
+       li=item._id
+      

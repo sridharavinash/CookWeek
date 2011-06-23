@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: url("/images/chalkboard.png") no-repeat;
+  background-size: 100%;
+}
+a {
+  color: #00b7ff;
+}
+nav {
+  text-align: right;
+}
+table {
+  width: 100%;
+}
+thead {
+  text-align: left;
+}
+td {
+  text-align: left;
+  font: 30px "Handwriting - Dakota";
+  color: #fff;
+}
+th {
+  text-align: left;
+  font: 40px "Handwriting - Dakota" bold;
+}
