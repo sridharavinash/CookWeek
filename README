@@ -1,0 +1,10 @@
+Requirements :
+-mongodb http://mongodb.org
+
+node modules:
+- express 
+- jade
+- jquery
+- mongodb
+- stylus
+
