@@ -17,4 +17,4 @@ use "npm install package_name" to install in the checked out dir.
 To run:
 node app.js
 
-Make sure that you have installed mongodb for your platform and it is running.
+Make sure that you have installed mongodb for your platform and that it is running.
